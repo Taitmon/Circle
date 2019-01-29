@@ -12,10 +12,11 @@ public class Main
         System.out.println("The area is: " + hugeCircle.getArea());
 
         System.out.println("===============================");
-        hugeCircle.radius = 4;
-        System.out.println("The diameter is: " + hugeCircle.getDiameter());
-        System.out.println("The radius is: " + hugeCircle.radius);
-        System.out.println("The area is: " + hugeCircle.getArea());
+        Circle hugeHugeCircle = new Circle();
+        hugeHugeCircle.radius = 4;
+        System.out.println("The diameter is: " + hugeHugeCircle.getDiameter());
+        System.out.println("The radius is: " + hugeHugeCircle.radius);
+        System.out.println("The area is: " + hugeHugeCircle.getArea());
 
     }
 }
